@@ -9,8 +9,38 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Color(.black)
+        VStack {
+            ZStack{
+//                Color(.black)
+
+                Circle()
+                    .stroke(lineWidth: 40.0)
+                    .foregroundColor(.red)
+                    .frame(width: 300, height: 290)
+
+                
+                Circle()
+                    .stroke(lineWidth: 40.0)
+                    .foregroundColor(.green)
+                    .frame(width: 200, height: 290)
+
+                
+                Circle()
+                    .stroke(lineWidth: 40.0)
+                    .foregroundColor(.blue)
+                    .frame(width: 110, height: 290)
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+            }// FIN ZSTACK
           
             
             
@@ -20,6 +50,7 @@ struct ContentView: View {
             
             
         }// HSATCK
+        .padding()
     }// BODY
 }// STRUCT
 
